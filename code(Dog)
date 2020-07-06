@@ -1,0 +1,12 @@
+public class Dog extends Animal{
+private String x;
+
+   public Dog (String name){
+      x=name;
+    }  
+    
+   public void introduceYourself(){
+      System.out.println("Woof. I am a dog. My name is "+ x);
+   }
+
+}
