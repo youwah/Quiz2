@@ -1,0 +1,10 @@
+public class Cat extends Animal{
+private String x;
+   public Cat (String name){
+      x=name;
+   }
+   public void introduceYourself(){
+      System.out.println("Meow. I am a cat. My name is " + x);
+   }
+
+}
